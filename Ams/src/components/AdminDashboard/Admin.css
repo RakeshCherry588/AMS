@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    background-color: rgb(240, 241, 245);
+}
+
+.admin{
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebarEmp{
+    display: flex;
+    margin-left: 3rem;
+}
