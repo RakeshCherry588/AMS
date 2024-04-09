@@ -1,0 +1,144 @@
+#dialog {
+  background-color: white;
+  border-color: white;
+  width: 500px;
+  height: 400px;
+  border-radius: 20px;
+  filter: drop-shadow(2px 4px 6px rgb(113, 113, 164));
+}
+body {
+  background-color: #ededed;
+}
+#closebtn {
+  background-color: rgb(215, 6, 6);
+  color: aliceblue;
+  position: absolute;
+  border-radius: 5px;
+  right: 20px;
+  top: 10px;
+}
+#subbtn {
+  position: absolute;
+  top: 85%;
+  left: 42.5%;
+}
+
+.modal-opened {
+  opacity: 0.1;
+  background-color: rgb(184, 200, 209);
+}
+#card {
+  border: 1px solid black;
+  width: 300px;
+  height: 360px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border-radius: 15px;
+}
+#presenttime {
+  font-size: 35px;
+  color: #b0b0b0;
+  font-family: "Acme", sans-serif;
+}
+#today {
+  margin-top: 35px;
+  font-size: 50px;
+  font-family: "Acme", sans-serif;
+}
+#presentdate {
+  font-size: 40px;
+  font-family: "Acme", sans-serif;
+}
+#imgicon {
+  width: 60px;
+  object-fit: fill;
+  height: 40px;
+  position: relative;
+  top: -9px;
+  left: -4px;
+}
+
+#grid {
+  display: grid;
+  margin: 20px;
+  grid-template-columns: 100px auto;
+  grid-template-rows: 100px 50px 200px auto;
+  height: auto;
+}
+#sidebar {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  padding-left: 22.5px;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 20px;
+}
+#sidebar a.active {
+  color: red;
+}
+#sidebar a.inactive {
+  color: rgb(5, 5, 5);
+}
+#slideranimation {
+  width: 5px;
+  height: 40px;
+  border: 1px solid red;
+  background-color: red;
+  position: absolute;
+  left: 37.5px;
+}
+
+#bodypart,
+#attendancelist {
+  grid-column: 2/3;
+  grid-row: 1/4;
+}
+#carditem {
+  border: 1px solid white;
+  background-color: white;
+  width: 300px;
+  height: 175px;
+  filter: drop-shadow(0 0 0.25rem rgb(187, 181, 182));
+}
+#dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 5px;
+}
+.outer-circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid rgb(223, 214, 214);
+  position: relative;
+  top: 20%;
+  padding: 10px;
+  left: -5px;
+}
+.outer-circle.total-equal {
+  background: conic-gradient(blue 100%);
+}
+.inner-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 1px solid rgb(216, 210, 210);
+  background-color: rgb(248, 245, 245);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav > li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+#attendancelist {
+  grid-row: 2/3;
+}
+#table {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
